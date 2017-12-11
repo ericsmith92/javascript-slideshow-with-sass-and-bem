@@ -1,0 +1,33 @@
+.slideshow{
+    height: 95vh;
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+
+    &__slide{
+        height: 100%;
+        width: 100%;
+        display: none; 
+
+        &--1{
+            background-color:$bg-slide-blue; 
+        }
+
+        &--2{
+            background-color:$bg-slide-yellow; 
+        }
+
+        &--3{
+            background-color:$bg-slide-green; 
+        }
+
+        &--4{
+            background-color:$bg-slide-pink; 
+        }
+
+        &--current{
+            display: block;
+            animation: fade 1s 1;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Slide Show</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--container for slides-->
+        <div class="slideshow">
+            <!-- slides -->
+            <div class="slideshow__slide slideshow__slide--1 slideshow__slide--current">
+                <div class="heading">
+                    <h2 class="heading__text heading__text--animate-1">Slide One</h2>
+                </div>            
+            </div>
+            
+            <div class="slideshow__slide slideshow__slide--2">
+                <div class="heading">
+                    <h2 class="heading__text heading__text--animate-2">Slide Two</h2>
+                </div> 
+            </div>
+            
+            <div class="slideshow__slide slideshow__slide--3">
+                <div class="heading">
+                    <h2 class="heading__text heading__text--animate-3">Slide Three</h2>
+                </div> 
+            </div>
+            
+            <div class="slideshow__slide slideshow__slide--4">
+                <div class="heading">
+                    <h2 class="heading__text heading__text--animate-4">Slide Four</h2>
+                </div> 
+            </div> 
+
+            <!--increment-decrement-buttons -->
+            <div class="incre-decre-btns">
+               <a id="decre" class="incre-decre-btns__btn incre-decre-btns__btn--decrement">&#10094;</a>
+               <a id="incre" class="incre-decre-btns__btn incre-decre-btns__btn--increment">&#10095;</a>
+            </div>
+        </div>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>

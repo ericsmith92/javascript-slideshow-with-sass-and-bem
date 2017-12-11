@@ -1,0 +1,66 @@
+/*keyframe for slide animation*/
+@keyframes fade {
+    0% {opacity: 0}
+    10% {opacity: 0.1}
+    20% {opacity: 0.2}
+    30% {opacity: 0.3}
+    40% {opacity: 0.4}
+    50% {opacity: 0.5}
+    60% {opacity: 0.6}
+    70% {opacity: 0.7}
+    80% {opacity: 0.8}
+    90% {opacity: 0.9}
+    100% {opacity: 1}
+}
+
+//animate heading text
+
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem); 
+    }
+      100% {
+        opacity: 1;
+        transform: translate(0); 
+    }  
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem); 
+    }
+      100% {
+        opacity: 1;
+        transform: translate(0); 
+    }  
+}
+
+@keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(3rem); 
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0); 
+    }    
+}
+
+@keyframes moveInTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-3rem); 
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0); 
+    }    
+}
